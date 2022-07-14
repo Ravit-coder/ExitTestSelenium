@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T15:01:02 IST" name="Default suite" finished-at="2022-07-14T15:02:00 IST" duration-ms="58748">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T15:01:02 IST" name="Default test" finished-at="2022-07-14T15:02:00 IST" duration-ms="58748">
+      <class name="Test.SeleniumExitTestAssignmentMaven.SearchTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:01 IST" name="setExtent" finished-at="2022-07-14T15:01:02 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:02 IST" name="intializeDriver" finished-at="2022-07-14T15:01:04 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:04 IST" name="openUrl" finished-at="2022-07-14T15:01:13 IST" duration-ms="9299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:13 IST" name="startTest" finished-at="2022-07-14T15:01:13 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:13 IST" name="validSearch" data-provider="test2data" finished-at="2022-07-14T15:01:18 IST" duration-ms="5293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[watches]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:18 IST" name="resultTest" finished-at="2022-07-14T15:01:18 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:18 IST" name="testclose" finished-at="2022-07-14T15:01:23 IST" duration-ms="4183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:23 IST" name="intializeDriver" finished-at="2022-07-14T15:01:24 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:24 IST" name="openUrl" finished-at="2022-07-14T15:01:32 IST" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:32 IST" name="startTest" finished-at="2022-07-14T15:01:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:32 IST" name="validSearch" data-provider="test2data" finished-at="2022-07-14T15:01:37 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[furniture]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:37 IST" name="resultTest" finished-at="2022-07-14T15:01:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:37 IST" name="testclose" finished-at="2022-07-14T15:01:42 IST" duration-ms="4195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:42 IST" name="intializeDriver" finished-at="2022-07-14T15:01:43 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:43 IST" name="openUrl" finished-at="2022-07-14T15:01:51 IST" duration-ms="7893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:51 IST" name="startTest" finished-at="2022-07-14T15:01:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:51 IST" name="validSearch" data-provider="test2data" finished-at="2022-07-14T15:01:56 IST" duration-ms="5337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[perfume]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:56 IST" name="resultTest" finished-at="2022-07-14T15:01:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose(org.testng.ITestResult)[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:01:56 IST" name="testclose" finished-at="2022-07-14T15:02:00 IST" duration-ms="4178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=SearchTest.validSearch(java.lang.String)[pri:1, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Test.SeleniumExitTestAssignmentMaven.SearchTest@5b057c8c]" started-at="2022-07-14T15:02:00 IST" name="endReport" finished-at="2022-07-14T15:02:00 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Test.SeleniumExitTestAssignmentMaven.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

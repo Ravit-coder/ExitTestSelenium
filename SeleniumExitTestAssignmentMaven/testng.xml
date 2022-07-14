@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="Test.SeleniumExitTestAssignmentMaven.LoginTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.SearchTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.AddCartTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.CareersTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.SocialMediaTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.CustomerCareTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest"></class>
+  <class name="Test.SeleniumExitTestAssignmentMaven.GroceryTest"></class>
+   <class name="Test.SeleniumExitTestAssignmentMaven.OrdersTest"></class>
+     <class name="Test.SeleniumExitTestAssignmentMaven.HomeTest"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
