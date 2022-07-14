@@ -9,7 +9,7 @@ import utils.ExcelDataProvider;
 
 public class SearchTest extends BaseTest {
 
-	@Test(priority=1,alwaysRun = true,dataProvider = "test2data",dataProviderClass=ExcelDataProvider.class)
+	@Test(priority=10,alwaysRun = true,dataProvider = "test2data",dataProviderClass=ExcelDataProvider.class)
 	public void validSearch(String Search) throws InterruptedException
 	{
 		log.info("********************************************Search Funtionality*******************************************");

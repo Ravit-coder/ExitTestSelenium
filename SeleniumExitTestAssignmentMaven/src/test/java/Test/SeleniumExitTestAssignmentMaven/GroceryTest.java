@@ -8,7 +8,7 @@ import utils.ExcelDataProvider;
 
 public class GroceryTest extends BaseTest{
 
-	@Test(priority=1,alwaysRun = true,dataProvider = "test4data",dataProviderClass=ExcelDataProvider.class)
+	@Test(priority=5,alwaysRun = true,dataProvider = "test4data",dataProviderClass=ExcelDataProvider.class)
 	public void grocery(String groceryitem)
 	{
 		log.info("*********************************************Grocery Funtinality**********************************************");
@@ -17,7 +17,7 @@ public class GroceryTest extends BaseTest{
 		ge.click_grocery();
 		ge.search_product(groceryitem);
 		ge.search_button();
-		SoftAssert sa = new SoftAssert();
+		SoftAssert sa = new SoftAssert();     // assertion
  		sa.assertEquals(driver.toString(),"\r\n"
  				+ "Grocery");
  		System.out.println("Test Pass successfully");

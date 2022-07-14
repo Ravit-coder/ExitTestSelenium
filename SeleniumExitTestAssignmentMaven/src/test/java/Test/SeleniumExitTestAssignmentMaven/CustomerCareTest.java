@@ -17,7 +17,7 @@ public class CustomerCareTest extends BaseTest{
 		cp.click_help_center();
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(driver.getTitle(),"Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com"); 
-	 	System.out.println("Test Pass successfully");
+	 	System.out.println("Test Pass successfully");   // assertion
 		sa.assertAll();
 	}
 }

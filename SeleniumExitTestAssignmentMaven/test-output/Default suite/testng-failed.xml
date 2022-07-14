@@ -3,18 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.SeleniumExitTestAssignmentMaven.SearchTest">
+      <class name="Test.SeleniumExitTestAssignmentMaven.LoginTest">
         <methods>
           <include name="intializeDriver"/>
           <include name="resultTest"/>
+          <include name="valid_login"/>
           <include name="startTest"/>
           <include name="openUrl"/>
           <include name="endReport"/>
           <include name="setExtent"/>
           <include name="testclose"/>
-          <include name="validSearch" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- Test.SeleniumExitTestAssignmentMaven.SearchTest -->
+      </class> <!-- Test.SeleniumExitTestAssignmentMaven.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

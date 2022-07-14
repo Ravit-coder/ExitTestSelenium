@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>17/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 14 09:53:28 IST 2022</td>
+<td>Started on:</td><td>Thu Jul 14 23:23:55 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>249 seconds (249448 ms)</td>
+<tr><td>Total time:</td><td>232 seconds (232267 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,69 +75,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: namkeen</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//img[@class=&apos;_396cs4  _3exPp9&apos;])[2]&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;IN-J4QJ1J3&apos;, ip: &apos;192.168.229.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26c6bbb5a57a510eae65331dfcd2041c
-*** Element info: {Using=xpath, value=(//img[@class=&apos;_396cs4  _3exPp9&apos;])[2]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at SeleniumExitTestAssignmentMaven.Pages.GroceryPage.click_grocery(GroceryPage.java:36)
-	at Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery(GroceryTest.java:16)
+<td title='Test.SeleniumExitTestAssignmentMaven.LoginTest.valid_login()'><b>valid_login</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.LoginTest</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void Test.SeleniumExitTestAssignmentMaven.LoginTest.valid_login(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: valid_login([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) watches]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096648926", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1096648926'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//img[@class=&apos;_396cs4  _3exPp9&apos;])[2]&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;IN-J4QJ1J3&apos;, ip: &apos;192.168.229.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26c6bbb5a57a510eae65331dfcd2041c
-*** Element info: {Using=xpath, value=(//img[@class=&apos;_396cs4  _3exPp9&apos;])[2]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at SeleniumExitTestAssignmentMaven.Pages.GroceryPage.click_grocery(GroceryPage.java:36)
-	at Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery(GroceryTest.java:16)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace703232177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace703232177'><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void Test.SeleniumExitTestAssignmentMaven.LoginTest.valid_login(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: valid_login([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) watches]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
@@ -159,8 +112,8 @@ Session ID: 26c6bbb5a57a510eae65331dfcd2041c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>8</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@1b2abca6</td></tr>
+<td>0</td>
+<td>Test.SeleniumExitTestAssignmentMaven.LoginTest@a8c1f44</td></tr>
 <tr>
 <td title='Test.SeleniumExitTestAssignmentMaven.OrdersTest.orders_placed_history()'><b>orders_placed_history</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.OrdersTest<br>Parameters: srv408565@gmail.com, dontimagine</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Orders&apos;]&quot;}
@@ -169,8 +122,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;IN-J4QJ1J3&apos;, ip: &apos;192.168.229.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8678328d56aff76ec2f6c0980bf2208a
 *** Element info: {Using=xpath, value=//div[text()=&apos;Orders&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -184,19 +137,19 @@ Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
 	at SeleniumExitTestAssignmentMaven.Pages.OrdersPage.click_orders(OrdersPage.java:73)
-	at Test.SeleniumExitTestAssignmentMaven.OrdersTest.orders_placed_history(OrdersTest.java:22)
+	at Test.SeleniumExitTestAssignmentMaven.OrdersTest.orders_placed_history(OrdersTest.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1510333744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1510333744'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Orders&apos;]&quot;}
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404051835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404051835'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Orders&apos;]&quot;}
   (Session info: chrome=103.0.5060.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;IN-J4QJ1J3&apos;, ip: &apos;192.168.229.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\RAVITK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8678328d56aff76ec2f6c0980bf2208a
 *** Element info: {Using=xpath, value=//div[text()=&apos;Orders&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -214,9 +167,9 @@ Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
 	at SeleniumExitTestAssignmentMaven.Pages.OrdersPage.click_orders(OrdersPage.java:73)
-	at Test.SeleniumExitTestAssignmentMaven.OrdersTest.orders_placed_history(OrdersTest.java:22)
+	at Test.SeleniumExitTestAssignmentMaven.OrdersTest.orders_placed_history(OrdersTest.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -247,7 +200,7 @@ Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>13</td>
-<td>Test.SeleniumExitTestAssignmentMaven.OrdersTest@6392827e</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.OrdersTest@76f7d241</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -257,90 +210,85 @@ Session ID: 44eb2b57e2f4045f497c5fd4c0186eb8
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: perfume</td>
-<td></td>
-<td>5</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@741a8937</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest.Gifts()'><b>Gifts</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest</td>
-<td></td>
-<td>2</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest@e15b7e8</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.LoginTest.invalid_login()'><b>invalid_login</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.LoginTest</td>
-<td></td>
-<td>5</td>
-<td>Test.SeleniumExitTestAssignmentMaven.LoginTest@58695725</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: watches</td>
-<td></td>
-<td>5</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@741a8937</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: atta</td>
+<td title='Test.SeleniumExitTestAssignmentMaven.SocialMediaTest.verify_social_media_youtube()'><b>verify_social_media_youtube</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SocialMediaTest</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@1b2abca6</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.InvalidSearch()'><b>InvalidSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest</td>
-<td></td>
-<td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@741a8937</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SocialMediaTest.verify_social_media_facebook()'><b>verify_social_media_facebook</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SocialMediaTest</td>
-<td></td>
-<td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SocialMediaTest@bae7dc0</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.LoginTest.valid_login()'><b>valid_login</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.LoginTest</td>
-<td></td>
-<td>5</td>
-<td>Test.SeleniumExitTestAssignmentMaven.LoginTest@58695725</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.CareersTest.cheak_job_vacancy()'><b>cheak_job_vacancy</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.CareersTest</td>
-<td></td>
-<td>13</td>
-<td>Test.SeleniumExitTestAssignmentMaven.CareersTest@52af26ee</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.SocialMediaTest@5b04476e</td></tr>
 <tr>
 <td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: coffee</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@1b2abca6</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@2783717b</td></tr>
 <tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.CustomerCareTest.customer_sevice()'><b>customer_sevice</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.CustomerCareTest</td>
-<td></td>
-<td>1</td>
-<td>Test.SeleniumExitTestAssignmentMaven.CustomerCareTest@209da20d</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: ghee</td>
+<td title='Test.SeleniumExitTestAssignmentMaven.SocialMediaTest.verify_social_media_facebook()'><b>verify_social_media_facebook</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SocialMediaTest</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@1b2abca6</td></tr>
-<tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: furniture</td>
-<td></td>
-<td>5</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@741a8937</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.SocialMediaTest@5b04476e</td></tr>
 <tr>
 <td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: ,</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@1b2abca6</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@2783717b</td></tr>
 <tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.HomeTest.verify_home_applience()'><b>verify_home_applience</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.HomeTest</td>
+<td title='Test.SeleniumExitTestAssignmentMaven.CareersTest.cheak_job_vacancy()'><b>cheak_job_vacancy</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.CareersTest</td>
+<td></td>
+<td>17</td>
+<td>Test.SeleniumExitTestAssignmentMaven.CareersTest@4264b240</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.CustomerCareTest.customer_sevice()'><b>customer_sevice</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.CustomerCareTest</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.HomeTest@2ed2d9cb</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.CustomerCareTest@5ad10c1a</td></tr>
 <tr>
-<td title='Test.SeleniumExitTestAssignmentMaven.SocialMediaTest.verify_social_media_youtube()'><b>verify_social_media_youtube</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SocialMediaTest</td>
+<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: furniture</td>
+<td></td>
+<td>5</td>
+<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@25748410</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.HomeTest.verify_home_applience_2()'><b>verify_home_applience_2</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.HomeTest</td>
 <td></td>
 <td>0</td>
-<td>Test.SeleniumExitTestAssignmentMaven.SocialMediaTest@bae7dc0</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.HomeTest@4a335fa8</td></tr>
 <tr>
 <td title='Test.SeleniumExitTestAssignmentMaven.AddCartTest.Add_Product()'><b>Add_Product</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.AddCartTest<br>Parameters: Iphone</td>
 <td></td>
 <td>11</td>
-<td>Test.SeleniumExitTestAssignmentMaven.AddCartTest@306e95ec</td></tr>
+<td>Test.SeleniumExitTestAssignmentMaven.AddCartTest@2b43529a</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: atta</td>
+<td></td>
+<td>0</td>
+<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@2783717b</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest.Gifts()'><b>Gifts</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest</td>
+<td></td>
+<td>2</td>
+<td>Test.SeleniumExitTestAssignmentMaven.GiftsCardsTest@75e01201</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: namkeen</td>
+<td></td>
+<td>0</td>
+<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@2783717b</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.GroceryTest.grocery()'><b>grocery</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.GroceryTest<br>Parameters: ghee</td>
+<td></td>
+<td>0</td>
+<td>Test.SeleniumExitTestAssignmentMaven.GroceryTest@2783717b</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: watches</td>
+<td></td>
+<td>5</td>
+<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@25748410</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.SearchTest.validSearch()'><b>validSearch</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.SearchTest<br>Parameters: perfume</td>
+<td></td>
+<td>5</td>
+<td>Test.SeleniumExitTestAssignmentMaven.SearchTest@25748410</td></tr>
+<tr>
+<td title='Test.SeleniumExitTestAssignmentMaven.HomeTest.verify_home_applience_1()'><b>verify_home_applience_1</b><br>Test class: Test.SeleniumExitTestAssignmentMaven.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>Test.SeleniumExitTestAssignmentMaven.HomeTest@4a335fa8</td></tr>
 </table><p>
 </body>
 </html>

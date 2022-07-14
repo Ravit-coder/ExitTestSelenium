@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 public class ExcelDataProvider {
 	
-	
      @DataProvider(name = "test1data")
 	public Object[][] getData1() {
 

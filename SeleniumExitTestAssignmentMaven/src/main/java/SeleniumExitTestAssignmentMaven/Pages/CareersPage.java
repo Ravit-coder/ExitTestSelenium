@@ -14,30 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CareersPage {
 	  WebDriver driver;
-	    public static File file;
-		public static Properties prop;
-		public static FileInputStream fis;
-
-
-		static {
-			
-			try {
-				file = new File("./Resources/config.properties");
-				fis = new FileInputStream(file);
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			}
-			
-			
-		prop = new Properties();
-		try {
-			prop.load(fis);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		}
-		
+	   
 		public CareersPage(WebDriver driver)  {
 			PageFactory.initElements(driver,this);
 			this.driver = driver;

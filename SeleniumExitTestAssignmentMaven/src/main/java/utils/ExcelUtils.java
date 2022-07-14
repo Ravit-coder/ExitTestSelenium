@@ -19,17 +19,12 @@ public class ExcelUtils {
 		}
 	}
 
-	public static void main(String[] args) {
-		 getRowCount();
-	//	 getCellDataString(1,0);
-	//	 getCellDataString(1,1);
-	}
 
 	public static int getRowCount() {
 		int rowCount=0;
 		try {
 			 rowCount = sheet.getPhysicalNumberOfRows();
-			System.out.println("No of rows :" + rowCount);
+		//	System.out.println("No of rows :" + rowCount);
 		} catch (Exception exp) {
 			System.out.println(exp.getMessage());
 			System.out.println(exp.getCause());
@@ -43,7 +38,7 @@ public class ExcelUtils {
 		int colCount=0;
 		try {
 			 colCount = sheet.getRow(0).getPhysicalNumberOfCells();
-			System.out.println("No of columns :" + colCount);
+		//	System.out.println("No of columns :" + colCount);
 		} catch (Exception exp) {
 			System.out.println(exp.getMessage());
 			System.out.println(exp.getCause());

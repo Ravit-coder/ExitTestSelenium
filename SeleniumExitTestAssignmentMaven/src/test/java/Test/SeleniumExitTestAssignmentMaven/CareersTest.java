@@ -7,7 +7,7 @@ import SeleniumExitTestAssignmentMaven.Pages.CareersPage;
 
 public class CareersTest extends BaseTest {
 
-	@Test
+	@Test(priority=3)
 	public void cheak_job_vacancy() throws InterruptedException 
 	{
 	log.info("***************************************************Careers Funtionality******************************************");	
@@ -18,7 +18,7 @@ public class CareersTest extends BaseTest {
 	cr.click_job_india();  
 	Thread.sleep(5000);
 	
-	    SoftAssert sa = new SoftAssert();
+	    SoftAssert sa = new SoftAssert();          // assertion
 		sa.assertEquals(driver.getTitle(),"Job Openings"); 
 	 	System.out.println("Test Pass successfully");
 		sa.assertAll();

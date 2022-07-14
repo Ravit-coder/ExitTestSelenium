@@ -62,7 +62,7 @@ public class BaseTest {
 		Configurator.initialize(null, log4jConfigFile);
 	}
 
-	public static Logger log = LogManager.getLogger(BaseTest.class);
+	public static Logger log = LogManager.getLogger(BaseTest.class);   // logger
 
 	@BeforeSuite
 	public void setExtent() {
@@ -82,15 +82,15 @@ public class BaseTest {
 		case "Chrome":
 			System.setProperty(prop.getProperty("ChromedriverProperty"), prop.getProperty("ChromedriverPath"));
 
-			if (prop.getProperty("mode").equals("headless")) {
-				ChromeOptions option = new ChromeOptions();
+			if (prop.getProperty("mode").equals("headless")) {   
+				ChromeOptions option = new ChromeOptions();    // option to run headless mode
 				option.addArguments("window-size=1400,800");
 				option.addArguments("--headless");
-				driver = new ChromeDriver(option);
+				driver = new ChromeDriver(option);  
 				driver.manage().window().maximize();
 				break;
 			} else {
-				driver = new ChromeDriver();
+				driver = new ChromeDriver();       // chrome launch
 				driver.manage().window().maximize();
 				break;
 			}
@@ -101,7 +101,7 @@ public class BaseTest {
 			if (prop.getProperty("mode").equals("headless")) {
 				FirefoxOptions option = new FirefoxOptions();
 				option.setHeadless(true);
-				driver = new FirefoxDriver(option);
+				driver = new FirefoxDriver(option);   // firefox launch
 				driver.manage().window().maximize();
 				break;
 

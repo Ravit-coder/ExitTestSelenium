@@ -7,7 +7,7 @@ import SeleniumExitTestAssignmentMaven.Pages.GiftsCardsPage;
 
 public class GiftsCardsTest extends BaseTest{
 
-	@Test
+	@Test(groups= {"sanity"},priority=4)
 	public void Gifts()
 	{
 		log.info("**************************************************Gifts Cards Funtinality*********************************");
@@ -17,7 +17,7 @@ public class GiftsCardsTest extends BaseTest{
 		gc.click_know_more();
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(driver.getTitle(),"Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com"); 
-	 	System.out.println("Test Pass successfully");
+	 	System.out.println("Test Pass successfully");    // assertion
 		sa.assertAll();
 	}
 }

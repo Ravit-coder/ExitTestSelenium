@@ -15,29 +15,6 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 
 	WebDriver driver;
-	public static File file;
-	public static Properties prop;
-	public static FileInputStream fis;
-
-
-	static {
-		
-		try {
-			file = new File("./Resources/config.properties");
-			fis = new FileInputStream(file);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		
-		
-	prop = new Properties();
-	try {
-		prop.load(fis);
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
-
-	}
 
 	
 	public LoginPage(WebDriver driver)  {
@@ -45,14 +22,11 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	
-	@FindBy(how = How.XPATH, using="//button[contains(text(),'✕')]")  //  _2KpZ6l _2doB4z
+	@FindBy(how = How.XPATH, using="//button[contains(text(),'✕')]")  // class =  _2KpZ6l _2doB4z
 	public WebElement pop;
-	
-	@FindBy(how = How.CLASS_NAME, using="_2IX_2- VJZDxU")
-	public WebElement email;
 
 	@FindBy(how = How.XPATH, using="//span[contains(text(),'Enter Email/Mobile number')]/../..//input")
-	public WebElement emaill;
+	public WebElement email;
 	
 	@FindBy(how = How.XPATH, using="//span[contains(text(),'Enter Password')]/../..//input")
 	public WebElement pass;
@@ -65,24 +39,20 @@ public class LoginPage {
 		pop.click();
 	}
 	
-	public void emailup()
+	public void emailup(String usernm)
 	{
-		emaill.sendKeys("7982967187");
+		email.sendKeys(usernm);
 	}
 	
-	public void passup()
+	public void passup(String passw)
 	{
-		pass.sendKeys("dontimagine");
-	}
-	
-	public void invalidpassup()
-	{
-	   pass.sendKeys("sjmabcdhjbd");	
+		pass.sendKeys(passw);
 	}
 	
 	public void sign()
 	{
-		signin.click();;
+		signin.click();
 	}
+
 	
 }

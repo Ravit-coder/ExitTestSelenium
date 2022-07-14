@@ -3,6 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Test.SeleniumExitTestAssignmentMaven.LoginTest">
+        <methods>
+          <include name="resultTest"/>
+          <include name="intializeDriver"/>
+          <include name="valid_login"/>
+          <include name="startTest"/>
+          <include name="openUrl"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="testclose"/>
+        </methods>
+      </class> <!-- Test.SeleniumExitTestAssignmentMaven.LoginTest -->
       <class name="Test.SeleniumExitTestAssignmentMaven.OrdersTest">
         <methods>
           <include name="orders_placed_history" invocation-numbers="0"/>
@@ -15,18 +27,6 @@
           <include name="testclose"/>
         </methods>
       </class> <!-- Test.SeleniumExitTestAssignmentMaven.OrdersTest -->
-      <class name="Test.SeleniumExitTestAssignmentMaven.GroceryTest">
-        <methods>
-          <include name="resultTest"/>
-          <include name="intializeDriver"/>
-          <include name="startTest"/>
-          <include name="openUrl"/>
-          <include name="grocery" invocation-numbers="3"/>
-          <include name="endReport"/>
-          <include name="setExtent"/>
-          <include name="testclose"/>
-        </methods>
-      </class> <!-- Test.SeleniumExitTestAssignmentMaven.GroceryTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
